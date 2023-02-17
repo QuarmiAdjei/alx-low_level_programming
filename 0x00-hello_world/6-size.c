@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: must 0 (right)
+ * Return: Must 0 (right)
  */
-ini main(void)
+int main(void)
 {
-	init a;
-	long init b;
-	long long init c;
+	int a;
+	long int b;
+	long long int c;
 	char d;
 	float f;
 
