@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Return: Must 0 (right)
  */
 int main(void)
