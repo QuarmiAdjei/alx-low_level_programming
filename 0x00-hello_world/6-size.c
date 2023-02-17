@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main -Starting point
+ *main - Starting point
  *
- * Return: Always 0 (rightful)
+ *Return: Always 0 (rightful)
  */
 int main(void)
 {
