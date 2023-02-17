@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - function output
+ * main - Entry point
  *
- * Return: Always 0 (this makes it successful)
+ * Return: Always 0 (success)
  */
 int main(void)
-{
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	Return (0);
+{print("with proper grammar, but the outcome is a piece of art,\n");
+return (0)
 }
