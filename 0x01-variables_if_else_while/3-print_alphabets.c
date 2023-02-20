@@ -3,7 +3,7 @@
  * main - Entry
  * Description: print the alphabet in lower case
  * and return in uppercase
- * Return o
+ * Return: o
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	}
 
 	c = 'A';
-	
+
 	while (c <= 'Z')
 	{
 		putchar(c);
