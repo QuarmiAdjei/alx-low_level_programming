@@ -6,9 +6,9 @@
  * Return o
  */
 int main(void)
-{char c = "a";
+{	char c = "a"
 
-	while(c <= 'z')
+	while (c <= 'z')
 	{
 		putcahr(c);
 		c++;
@@ -19,7 +19,7 @@ int main(void)
 	while (c <= 'Z')
 	{
 		putchar(c);
-		c++
+		c++;
 	}
 
 	putchar ('\n');

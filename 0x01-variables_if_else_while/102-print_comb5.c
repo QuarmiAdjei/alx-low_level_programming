@@ -41,7 +41,7 @@ int main(void)
 			}
 			c2++;
 		}
-		c++
+		c++;
 	}
 }
 
