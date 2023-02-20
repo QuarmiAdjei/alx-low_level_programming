@@ -13,7 +13,7 @@ int main(void)
 
 	while (c <= '0')
 	{
-		putcahr(c);
+		putchar(c);
 		c++
 	}
 
