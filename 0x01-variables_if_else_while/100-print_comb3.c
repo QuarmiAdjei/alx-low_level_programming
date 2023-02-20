@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main entry
+ * main - entry
  * Description: a program that prints all possible
  * different combination of two digits
  * Return: 0
  */
 int main(void)
-{
+{i
 	int c;
 	int d = 0;
+
+	while (d < 10)
 	{
 		c = 0;
 		while (c < 10)

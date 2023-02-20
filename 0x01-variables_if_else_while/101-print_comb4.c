@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main entry
+ * main - entry
  * Description: a program that prints all possible different combination of two digits 
  * Return: 0
  */
@@ -15,28 +15,29 @@ int main(void)
         {
                  d = 0;
 		 while (d < 10)
-                        {
-				c = 0;
-				while (c < 10)
-					if (c != e && e < d && d < c)
-					{
+		{
+			c = 0;
+			while (c < 10)
+			{
+				if (c != d && d != e && e < d && d < c)
+				{
 
-                               			 putchar('0' + e);
-                               			 putchar('0' + d);
-						 putchar('0' + c);
+                               		 putchar('0' + e);
+                               		 putchar('0' + d);
+					 putchar('0' + c);
 
-                               			 if (c + d + e != 9 + 8 + 7)
-                               			 {
-                                       			 putchar(',');
-                                       		 	 putchar(' ');
-						 }
+                               		if (c + d + e != 9 + 8 + 7)
+                               		{
+						putchar(',');
+						putchar(' ');
 					}
-				c++
+				}
+				c++;
 			}
-		 c++
+			d++;
+		}
+		 e++;
 	}
-	c++
-}    
         putchar('\n');
         return (0);
 }
