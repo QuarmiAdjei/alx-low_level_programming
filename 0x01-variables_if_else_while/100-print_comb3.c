@@ -7,7 +7,7 @@
  * Return: 0
  */
 int main(void)
-{i
+{
 	int c;
 	int d = 0;
 
