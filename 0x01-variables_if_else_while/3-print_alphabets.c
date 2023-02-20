@@ -6,11 +6,12 @@
  * Return o
  */
 int main(void)
-{	char c = "a"
+{
+	char c = 'a'
 
 	while (c <= 'z')
 	{
-		putcahr(c);
+		putchar(c);
 		c++;
 	}
 
@@ -22,6 +23,6 @@ int main(void)
 		c++;
 	}
 
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
