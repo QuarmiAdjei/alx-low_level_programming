@@ -4,8 +4,8 @@
 /**
  * main - main block
  * Description: Get a random number check and check its
- * last digit, compare it with $
- * Return 0
+ * last digit, compare it with 5
+ * Return: 0
  */
 int main(void)
 {
