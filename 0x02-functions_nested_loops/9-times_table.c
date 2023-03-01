@@ -2,7 +2,7 @@
 
 /**
  * times table - Print the 9 times table , starting with 0
- * Return: 0
+ * Return: empty output
  */
 
 void times_table(void)
@@ -14,7 +14,7 @@ void times_table(void)
 	{
 		for (u = 0; u <= 9; u++)
 		{
-			v = t = u;
+			v = t * u;
 			if (v > 9)
 			{
 				w = v % 10;
