@@ -5,7 +5,6 @@
  *
  * Return: 0 (Always)
  */
-
 int main(void)
 {
 	print_to_98(0);
