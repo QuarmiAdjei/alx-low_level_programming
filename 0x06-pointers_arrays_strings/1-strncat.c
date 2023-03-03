@@ -4,6 +4,7 @@
  * using at most n bytes from src
  * @dest: input value
  * @src: input value
+ * @n: number of bytes to receive
  *
  * Return: dest
  */
@@ -11,9 +12,8 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
-	int n;
 
-	i - 0;
+	i = 0;
 	while (dest[i] != '\0')
 	{
 		i++;
